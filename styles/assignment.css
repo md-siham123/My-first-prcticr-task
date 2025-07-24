@@ -1,0 +1,140 @@
+
+.open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* shared style */
+.text-primary{
+    color: #4E47FF;
+
+}
+/* nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+.nav-title{
+    font-weight: bold;
+    font-size: 34px;
+}
+nav ul li{
+    list-style: none;
+}
+/* shared styles */
+.btn-primary{
+    background-color: #4E47FF;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 12px 36px;
+    border-radius: 10px;
+    border: none;
+}
+.section-title{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+}
+/* body style */
+.hero-bg {
+  background-image: url('../images/Hero-bg.png'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* background-attachment: fixed; */
+  height:600px;
+  
+}
+/* Headline-styles */
+.Headline{
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+     line-height 37;
+     
+
+}
+/* banner-styles */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 116px 176px 0 140px; */
+      margin: 100px auto;
+    gap: 203px;
+  
+}
+.banner-conten{
+    max-width: 517px;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+}
+.banner-description{
+    font-size: 24px;
+    cursor:rgba(37, 36, 50, 0.52);
+}
+.banner-pic{
+    width: 405px;
+    border-radius: 48px;
+}
+/* main styles */
+main{
+    max-width: 1140px;
+   margin: 0 auto;
+}
+/* about styles */
+.about{
+    background-color:rgba(139, 136, 219, 0.1);
+    padding: 50px 80px;
+    text-align: center;
+    margin-top: 152px;
+     font-size: 38px;
+     border-radius: 24px;
+     /* font-weight: bold;
+     color: #252432; */
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    color: rgba(0, 0, 0, 0.5);
+}
+.item-number{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+/* footer styles */
+footer{
+    padding: 100px 150px;
+    display: flex;
+    gap: 115px;
+    background-color:#F5F7FF
+
+;
+  
+}
+.footer-column{
+    width: 50%;
+}
+.section-title{
+    font-size: 80px;
+    font-weight: bold;
+}
+footer input[type="text"] , footer input[type="email"],footer textarea{
+    height: 30px;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    width: 100%;
+   padding: 10px 20px;
+   margin-bottom: 19px;
+   border: none;
+}
