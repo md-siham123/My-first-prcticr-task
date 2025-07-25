@@ -1,32 +1,48 @@
-
-.open-sans-normal{
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
+
 /* shared style */
-.text-primary{
+.text-primary {
     color: #4E47FF;
 
 }
+
+/* section-title */
+.section-title {
+    font-size: 100px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+
+.banner-description {
+    color: rgba(37, 36, 50, 0.52);
+    font-size: 18px;
+}
+
 /* nav styles */
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 50px 150px;
 }
-.nav-title{
+
+.nav-title {
     font-weight: bold;
     font-size: 34px;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
 }
+
 /* shared styles */
-.btn-primary{
+.btn-primary {
     background-color: #4E47FF;
     color: white;
     font-weight: bold;
@@ -35,106 +51,175 @@ nav ul li{
     border-radius: 10px;
     border: none;
 }
-.section-title{
+
+.section-title {
     font-size: 38px;
     font-weight: bold;
     color: #252432;
 }
+.section-description{
+      color: rgba(37, 36, 50, 0.52);
+}
+
 /* body style */
 .hero-bg {
-  background-image: url('../images/Hero-bg.png'); 
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  /* background-attachment: fixed; */
-  height:600px;
-  
+    background-image: url('../images/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    height: 600px;
+
 }
+
 /* Headline-styles */
-.Headline{
+.Headline {
     font-size: 65px;
     font-weight: bold;
     text-align: center;
-     line-height 37;
-     
+   line-height: 65px;
+
+
+
+
 
 }
+
 /* banner-styles */
-.banner{
+.banner {
     display: flex;
     align-items: center;
     justify-content: center;
     /* margin: 116px 176px 0 140px; */
-      margin: 100px auto;
+    margin: 100px auto;
     gap: 203px;
-  
+
 }
-.banner-conten{
+
+.banner-content {
     max-width: 517px;
 }
-.banner-title{
+
+.banner-title {
     font-weight: bold;
     font-size: 42px;
     color: #252432;
 }
-.banner-description{
+
+.banner-description {
     font-size: 24px;
-    cursor:rgba(37, 36, 50, 0.52);
+    cursor: rgba(37, 36, 50, 0.52);
 }
-.banner-pic{
+
+.banner-pic {
     width: 405px;
     border-radius: 48px;
 }
+
 /* main styles */
-main{
+main {
     max-width: 1140px;
-   margin: 0 auto;
+    margin: 0 auto;
 }
+
 /* about styles */
-.about{
-    background-color:rgba(139, 136, 219, 0.1);
+.about {
+    background-color: rgba(139, 136, 219, 0.1);
     padding: 50px 80px;
     text-align: center;
     margin-top: 152px;
-     font-size: 38px;
-     border-radius: 24px;
-     /* font-weight: bold;
+    font-size: 38px;
+    border-radius: 24px;
+    /* font-weight: bold;
      color: #252432; */
 }
-.about-items{
+
+.about-items {
     display: flex;
     justify-content: space-around;
     color: rgba(0, 0, 0, 0.5);
 }
-.item-number{
+
+.item-number {
     font-size: 80px;
     font-weight: bold;
     color: #4E47FF;
 }
+
+/* Harry styles */
+.Harry {
+   padding: 100px 0;
+   text-align: center;
+   margin-top: 50px;
+   
+}
+.Harry-items{
+    display: flex;
+    justify-content: center;
+     gap: 40px;
+    
+   
+}
+
+
 /* footer styles */
-footer{
+footer {
     padding: 100px 150px;
     display: flex;
     gap: 115px;
-    background-color:#F5F7FF
-
-;
-  
+    background-color: #F5F7FF;
 }
-.footer-column{
+
+.footer-column {
     width: 50%;
 }
-.section-title{
+
+.section-title {
+    font-size: 48pxpx;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.hero-section-title {
     font-size: 80px;
     font-weight: bold;
+    color: #252432;
+    line-height: 1.2;
+    margin-bottom: 30px;
 }
-footer input[type="text"] , footer input[type="email"],footer textarea{
+
+
+.footer-section-title {
+    font-size: 38px;
+}
+
+
+footer input[type="text"],
+footer input[type="email"] {
     height: 30px;
     border-radius: 10px;
     background-color: white;
     display: block;
     width: 100%;
-   padding: 10px 20px;
-   margin-bottom: 19px;
-   border: none;
+    padding: 10px 20px;
+    margin-bottom: 19px;
+    border: none;
+}
+
+footer textarea {
+    height: 70px;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 19px;
+    border: none;
+}
+
+footer {
+    margin-top: 100px;
+    padding: 100px 150px;
+    display: flex;
+    gap: 115px;
+    background-color: #F5F7FF;
 }
