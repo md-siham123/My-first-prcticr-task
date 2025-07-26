@@ -51,6 +51,14 @@ nav ul li {
     border-radius: 10px;
     border: none;
 }
+.btn-primary:hover {
+    background-color: #3b3aca; 
+    box-shadow: 0 4px 15px rgba(78, 71, 255, 0.6);
+    transform: scale(1.05); 
+    /* transition: all 0.3s ease;  */
+    cursor: pointer; 
+}
+
 
 .section-title {
     font-size: 38px;
