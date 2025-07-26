@@ -124,14 +124,15 @@ main {
 
 /* about styles */
 .about {
-    background-color: rgba(139, 136, 219, 0.1);
+     background-color: #ECECFF;
     padding: 50px 80px;
     text-align: center;
-    margin-top: 152px;
+    /* margin-top: 152px; */
     font-size: 38px;
     border-radius: 24px;
-    /* font-weight: bold;
-     color: #252432; */
+       max-width: 1000px;
+    margin: 100px auto;
+    jkg
 }
 
 .about-items {
@@ -160,6 +161,10 @@ main {
     
    
 }
+.Harry .section-title {
+    color: #4E47FF;
+}
+
 
 
 /* footer styles */
@@ -175,7 +180,7 @@ footer {
 }
 
 .section-title {
-    font-size: 48pxpx;
+    font-size: 97px;
     font-weight: bold;
     color: #4E47FF;
 }
@@ -222,4 +227,84 @@ footer {
     display: flex;
     gap: 115px;
     background-color: #F5F7FF;
+}
+footer .section-title {
+    font-size: 80px;
+   
+}
+/* card styles */
+.testimonial-section {
+  text-align: center;
+  padding: 60px 0;
+  background-color: #f6f8ff;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #1c1c1c;
+  margin-bottom: 40px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 24px;
+  width: 300px;
+  text-align: left;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.stars-img img {
+  width: 16px;
+  height: 16px;
+  margin-right: 2px;
+}
+
+.card h3 {
+  font-size: 18px;
+  color: #111827;
+  margin: 12px 0 8px;
+  font-weight: bold;
+}
+
+.card p {
+  font-size: 14px;
+  color: #4b5563;
+  margin: 0 0 20px;
+}
+
+.reviewer-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviewer-img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.reviewer-info .name {
+  font-size: 14px;
+  margin: 0;
+  font-weight: 600;
+  color: #111827;
+}
+
+.reviewer-info .date {
+  font-size: 12px;
+  margin: 0;
+  color: #9ca3af;
 }
